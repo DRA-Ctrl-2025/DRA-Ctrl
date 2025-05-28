@@ -1,0 +1,278 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.footer .icon-link {
+    font-size: 25px;
+    color: #000;
+}
+
+.link-block a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+}
+
+
+.publication-title {
+}
+
+.publication-banner {
+  max-height: parent;
+
+}
+
+.publication-banner video {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  object-fit: fit;
+}
+
+.publication-header .hero-body {
+}
+
+.publication-title {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-venue {
+    color: #555;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.publication-awards {
+    color: #ff3860;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.publication-authors {
+}
+
+.publication-authors a {
+   color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+    text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.publication-banner img {
+}
+
+.publication-authors {
+  /*color: #4286f4;*/
+}
+
+.publication-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    overflow: hidden;
+    border-radius: 10px !important;
+}
+
+.publication-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.publication-body img {
+}
+
+.results-carousel {
+  overflow: hidden;
+}
+
+.results-carousel .item {
+  margin: 5px;
+  overflow: hidden;
+  padding: 20px;
+  font-size: 0;
+}
+
+.results-carousel video {
+  margin: 0;
+}
+
+.slider-pagination .slider-page {
+  background: #000000;
+}
+
+.eql-cntrb { 
+  font-size: smaller;
+}
+
+
+/* centering videos */
+
+.results-carousel .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+/* method name */
+
+code.method-name {
+  background-color: transparent !important;
+  color: black !important;
+  padding: 0 !important;
+  font-weight: bold !important;
+}
+
+
+/* 新增背景样式 */
+.banner {
+  /* 只保留图片背景 */
+  background: url('../images/banner_2.png') no-repeat center center;
+  
+  /* 控制背景显示方式 */
+  background-size: cover;  /* 覆盖整个区域（保持比例） */
+  min-height: 30vh;        /* 最小高度 */
+}
+
+/* 增强标题效果 */
+.publication-title {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  position: relative;
+  z-index: 2;
+}
+
+.publication-authors {
+  text-shadow: 
+    1px 1px 3px rgba(0,0,0,0.8), /* 黑色阴影 */
+    -1px -1px 0 rgba(255,255,255,0.3); /* 白色描边 */
+  font-weight: 500; /* 适当加粗 */
+}
+
+/* 给teaser部分添加顶部间隔 */
+.hero.teaser {
+  margin-top: 3rem; /* 与标题部分拉开距离 */
+}
+
+/* 视频网格主容器 */
+.video-grid-section {
+  padding: 2rem 1.5rem;
+}
+
+.video-grid-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 视频行布局 */
+.video-grid-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+/* 单个视频项 */
+.video-item {
+  width: calc(20% - 15px); /* 5列布局，保留间隙 */
+  position: relative;
+}
+
+/* 视频容器（保持1:1比例） */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+  background: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-item:hover .video-wrapper {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+/* 视频元素（绝对定位填充容器） */
+.video-wrapper video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 确保视频填满容器 */
+}
+
+/* 视频标题 */
+.video-caption {
+  margin-top: 12px;
+  font-size: 0.95rem;
+  text-align: center;
+  color: #333;
+  font-weight: 500;
+}
+
+/* 响应式调整 */
+@media (max-width: 1024px) {
+  .video-item {
+    width: calc(25% - 12px); /* 4列 */
+  }
+}
+
+@media (max-width: 768px) {
+  .video-item {
+    width: calc(33.33% - 10px); /* 3列 */
+  }
+}
+
+@media (max-width: 576px) {
+  .video-item {
+    width: calc(50% - 8px); /* 2列 */
+  }
+  
+  .video-caption {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .video-item {
+    width: 100%; /* 1列 */
+    margin-bottom: 20px;
+  }
+  
+  .video-grid-row {
+    flex-direction: column;
+  }
+}

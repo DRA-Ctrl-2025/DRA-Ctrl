@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Our project DRA-Ctrl leverages powerful video models for controllable image generation.">
+  <meta property="og:title" content="Dimension-Reduction Attack! Video Generative Models are Experts on Controllable Image Synthesis"/>
+  <meta property="og:description" content="Our project DRA-Ctrl leverages powerful video models for controllable image generation."/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/teaser_2_og.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="Dimension-Reduction Attack! Video Generative Models are Experts on Controllable Image Synthesis">
+  <meta name="twitter:description" content="Our project DRA-Ctrl leverages powerful video models for controllable image generation.">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/teaser_2_twitter.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="video generative models, controllable image generation, DRA-Ctrl, Dimension-Reduction Attack, Video Generative Models are Experts on Controllable Image Synthesis">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Dimension-Reduction Attack! Video Generative Models are Experts on Controllable Image Synthesis</title>
+  <link rel="icon" type="image/x-icon" href="static/images/icon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero banner">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title" style="color: white;">Dimension-Reduction Attack! Video Generative Models are Experts on Controllable Image Synthesis</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block" style="color: white;">
+                Hengyuan Cao<sup>1</sup>,</span>
+                <span class="author-block" style="color: white;">
+                  Yutong Feng<sup>2</sup>,</span>
+                  <span class="author-block" style="color: white;">
+                    Biao Gong<sup>3</sup>,</span>
+                    <span class="author-block" style="color: white;">
+                      Yijing Tian<sup>2</sup>,</span>
+                      <span class="author-block" style="color: white;">
+                        Yunhong Lu<sup>1</sup>,</span>
+                        <span class="author-block" style="color: white;">
+                          Chuang Liu<sup>2</sup>,</span>
+                          <span class="author-block" style="color: white;">
+                            Bin Wang<sup>2</sup></a>
+                          </span>
+                          </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block" style="color: white;"><sup>1</sup>Zhejiang University, <sup>2</sup>Meta-Carbon, <sup>3</sup>Ant Group<br>Under Review</span>
+                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <!-- <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                  <!-- Project page link -->
+                  <span class="link-block">
+                    <a href="https://PROJECT PAGE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Project</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser image-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <figure class="image">
+        <!-- Your image here -->
+        <img src="static/images/teaser_2.png" alt="Project teaser image" style="width: 100%; height: auto;">
+      </figure>
+      <h2 class="subtitle has-text-centered">
+        This paper leverages high-level prior of video generative models to unify controllable image generation in low-level. Bottom results show various types of task supported by <code class="method-name">DRA-Ctrl</code>.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser image -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Video generative models can be regarded as world simulators due to their ability to capture dynamic, continuous changes inherent in real-world environments. 
+            These models integrate high-dimensional information across visual, temporal, spatial, and causal dimensions, enabling predictions of subjects in various status. 
+            A natural and valuable research direction is to explore whether a fully trained video generative model in high-dimensional space can effectively support lower-dimensional tasks such as controllable image generation. 
+            In this work, we propose a paradigm for video-to-image knowledge compression and task adaptation, termed <em>Dimension-Reduction Attack</em> (<code class="method-name">DRA-Ctrl</code>), which utilizes the strengths of video models, including long-range context modeling and flatten full-attention, to perform various generation tasks. 
+            Specially, to address the challenging gap between continuous video frames and discrete image generation, we introduce a mixup-based transition strategy that ensures smooth adaptation.
+            Moreover, we redesign the attention structure with a tailored masking mechanism to better align text prompts with image-level control. 
+            Experiments across diverse image generation tasks, such as subject-driven and spatially conditioned generation, show that repurposed video models outperform those trained directly on images. These results highlight the untapped potential of large-scale video generators for broader visual applications.
+            <code class="method-name">DRA-Ctrl</code> provides new insights into reusing resource-intensive video models and lays foundation for future unified generative models across visual modalities.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">The Results of <code class="method-name">DRA-Ctrl</code> on Multiple Controllable Image Generation Tasks</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/appendix_canny.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Canny-to-image.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/appendix_colorization.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Colorization.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/appendix_deblurring.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Deblurring.
+       </h2>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/appendix_depth.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Depth-to-image.
+      </h2>
+    </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/appendix_depth_pred.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Depth prediction.
+      </h2>
+    </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/appendix_fill.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        In/out-painting.
+      </h2>
+    </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/appendix_sr.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Super-resolution.
+      </h2>
+    </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/appendix_customization.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Subject-driven image generation on DreamBench.
+      </h2>
+    </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/appendix_customization_2.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Customization.
+      </h2>
+    </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/appendix_style_transfer.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Style transfer.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      {!-- Paper video. --}
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            {!-- Youtube embed code here --}
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Demonstration of <code class="method-name">DRA-Ctrl</code> Generation Results</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <source src="static/videos/canny.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Canny-to-image.
+          </h2>
+        </div>
+
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <source src="static/videos/colorization.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Colorization.
+          </h2>
+        </div>
+
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">
+            <source src="static/videos/deblurring.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Deblurring.
+          </h2>
+        </div>
+
+        <div class="item item-video4">
+          <video poster="" id="video4" autoplay controls muted loop height="100%">
+            <source src="static/videos/depth.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Depth-to-image.
+          </h2>
+        </div>
+
+        <div class="item item-video5">
+          <video poster="" id="video5" autoplay controls muted loop height="100%">
+            <source src="static/videos/depth_pred.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Depth prediction.
+          </h2>
+        </div>
+
+        <div class="item item-video6">
+          <video poster="" id="video6" autoplay controls muted loop height="100%">
+            <source src="static/videos/fill.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Inpainting.
+          </h2>
+        </div>
+
+        <div class="item item-video7">
+          <video poster="" id="video7" autoplay controls muted loop height="100%">
+            <source src="static/videos/sr.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Super-resolution.
+          </h2>
+        </div>
+
+        <div class="item item-video8">
+          <video poster="" id="video8" autoplay controls muted loop height="100%">
+            <source src="static/videos/customization.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Subject-driven image generation on DreamBench.
+          </h2>
+        </div>
+
+        <div class="item item-video9">
+          <video poster="" id="video9" autoplay controls muted loop height="100%">
+            <source src="static/videos/customization_2.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Subject-driven image generation.
+          </h2>
+        </div>
+
+        <div class="item item-video10">
+          <video poster="" id="video10" autoplay controls muted loop height="100%">
+            <source src="static/videos/style_transfer.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            Style transfer.
+          </h2>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+<!-- Video Grid Section -->
+<section class="section video-grid-section">
+  <div class="container">
+    <h2 class="title is-3">Video Demonstration of <code class="method-name">DRA-Ctrl</code> Generation Results</h2>
+    
+    <!-- 视频网格容器 -->
+    <div class="video-grid-container">
+      <!-- 第一行 -->
+      <div class="video-grid-row">
+        <div class="video-item">
+          <div class="video-wrapper">
+            <video autoplay loop muted playsinline controls>
+              <source src="static/videos/canny.mp4" type="video/mp4">
+            </video>
+          </div>
+          <h3 class="video-caption">Canny-to-image</h3>
+        </div>
+        <!-- 重复其他4个第一行视频 -->
+        <div class="video-item">
+          <div class="video-wrapper">
+            <video autoplay loop muted playsinline controls>
+              <source src="static/videos/colorization.mp4" type="video/mp4">
+            </video>
+          </div>
+          <h3 class="video-caption">Colorization</h3>
+        </div>
+        <div class="video-item">
+          <div class="video-wrapper">
+            <video autoplay loop muted playsinline controls>
+              <source src="static/videos/deblurring.mp4" type="video/mp4">
+            </video>
+          </div>
+          <h3 class="video-caption">Deblurring</h3>
+        </div>
+        <div class="video-item">
+          <div class="video-wrapper">
+            <video autoplay loop muted playsinline controls>
+              <source src="static/videos/depth.mp4" type="video/mp4">
+            </video>
+          </div>
+          <h3 class="video-caption">Depth-to-image</h3>
+        </div>
+        <div class="video-item">
+          <div class="video-wrapper">
+            <video autoplay loop muted playsinline controls>
+              <source src="static/videos/depth_pred.mp4" type="video/mp4">
+            </video>
+          </div>
+          <h3 class="video-caption">Depth prediction</h3>
+        </div>
+      </div>
+
+      <!-- 第二行 -->
+      <div class="video-grid-row">
+        <div class="video-item">
+          <div class="video-wrapper">
+            <video autoplay loop muted playsinline controls>
+              <source src="static/videos/fill.mp4" type="video/mp4">
+            </video>
+          </div>
+          <h3 class="video-caption">Inpainting</h3>
+        </div>
+        <!-- 重复其他4个第二行视频 -->
+         <div class="video-item">
+          <div class="video-wrapper">
+            <video autoplay loop muted playsinline controls>
+              <source src="static/videos/sr.mp4" type="video/mp4">
+            </video>
+          </div>
+          <h3 class="video-caption">Super-resolution</h3>
+        </div>
+        <div class="video-item">
+          <div class="video-wrapper">
+            <video autoplay loop muted playsinline controls>
+              <source src="static/videos/customization.mp4" type="video/mp4">
+            </video>
+          </div>
+          <h3 class="video-caption">Subject-driven image generation on DreamBench</h3>
+        </div>
+        <div class="video-item">
+          <div class="video-wrapper">
+            <video autoplay loop muted playsinline controls>
+              <source src="static/videos/customization_2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <h3 class="video-caption">Subject-driven image generation</h3>
+        </div>
+        <div class="video-item">
+          <div class="video-wrapper">
+            <video autoplay loop muted playsinline controls>
+              <source src="static/videos/style_transfer.mp4" type="video/mp4">
+            </video>
+          </div>
+          <h3 class="video-caption">Style transfer</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Method -->
+<section class="hero is-small">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <!-- <h2 class="title is-3">Samples generated by <i class="pixart-alpha-icon"></i><span style="color: rgb(72, 87, 220);">Ranni</span></h2> -->
+                <h2 class="title is-3">Mehthod Overview</h2>
+                <p>
+                    Given that video generative models' inherent <strong>temporal full-attention</strong> and <strong>rich dynamics priors</strong>, 
+                    we argue they can be efficiently re-purposed for controllable image generation tasks.
+                </p>
+                <hr>
+                <img src="static/images/t2v_i2v_baseline.png" alt="MY ALT TEXT" />
+                <hr>
+                <p>
+                    The simplest approach for controllable image generation using video generative models is to treat condition and target images as a two-frame video. 
+                    During training, the condition image remains noiseless and excluded from loss calculation, while the target image is noise-corrupted and included in loss calculation. 
+                    During inference, the condition image maintains noiseless to provide complete control signals. 
+                    However, neither finetuned T2V nor I2V model meets the requirements for subject-driven generation: 
+                    the T2V model lacks subject consistency, while the I2V model over-preserves similarity to the condition image and exhibits poor prompt adherence.
+                </p>
+                <hr>
+                <img src="static/images/pipeline_3.png" alt="MY ALT TEXT" />
+                <hr>
+                <p>
+                    To successfully adapt smooth-transition-capable video generative models for handling abrupt and discontinuous image transitions, 
+                    we propose multiple strategies, including mixup-based shot transition strategy, Frame Skip Position Embedding (FSPE), loss reweighting and Attention Masking Strategy.
+                </p>
+                
+            </div>
+        </div>
+    </section>
+<!-- End Method -->
+
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
