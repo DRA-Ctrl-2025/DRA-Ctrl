@@ -156,13 +156,20 @@ code.method-name {
 
 
 /* 新增背景样式 */
-.banner {
-  /* 只保留图片背景 */
+/* .banner {
   background: url('../images/banner_2.png') no-repeat center center;
   
-  /* 控制背景显示方式 */
-  background-size: cover;  /* 覆盖整个区域（保持比例） */
-  min-height: 30vh;        /* 最小高度 */
+  background-size: cover;
+  min-height: 30vh;
+} */
+.banner {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/banner_2.png') no-repeat center center;
+  background-size: cover;
+  min-height: 30vh;
+  color: white; /* 文字改为白色 */
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5); /* 增加文字阴影 */
 }
 
 /* 增强标题效果 */
